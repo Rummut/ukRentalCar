@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ukRentalCar/static/css/main.df8c5996.css",
+    "main.js": "/ukRentalCar/static/js/main.cf8171fc.js",
+    "index.html": "/ukRentalCar/index.html",
+    "main.df8c5996.css.map": "/ukRentalCar/static/css/main.df8c5996.css.map",
+    "main.cf8171fc.js.map": "/ukRentalCar/static/js/main.cf8171fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df8c5996.css",
+    "static/js/main.cf8171fc.js"
+  ]
+}
