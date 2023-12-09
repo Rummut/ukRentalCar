@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/ukRentalCar/static/css/main.538c27a0.css",
-    "main.js": "/ukRentalCar/static/js/main.ebba9306.js",
+    "main.js": "/ukRentalCar/static/js/main.e9e246aa.js",
     "static/js/322.7a898657.chunk.js": "/ukRentalCar/static/js/322.7a898657.chunk.js",
-    "static/js/450.aac6d036.chunk.js": "/ukRentalCar/static/js/450.aac6d036.chunk.js",
+    "static/js/450.d5e38a23.chunk.js": "/ukRentalCar/static/js/450.d5e38a23.chunk.js",
     "static/js/826.d69e18a3.chunk.js": "/ukRentalCar/static/js/826.d69e18a3.chunk.js",
     "static/js/294.61f92d3a.chunk.js": "/ukRentalCar/static/js/294.61f92d3a.chunk.js",
     "index.html": "/ukRentalCar/index.html",
     "main.538c27a0.css.map": "/ukRentalCar/static/css/main.538c27a0.css.map",
-    "main.ebba9306.js.map": "/ukRentalCar/static/js/main.ebba9306.js.map",
+    "main.e9e246aa.js.map": "/ukRentalCar/static/js/main.e9e246aa.js.map",
     "322.7a898657.chunk.js.map": "/ukRentalCar/static/js/322.7a898657.chunk.js.map",
-    "450.aac6d036.chunk.js.map": "/ukRentalCar/static/js/450.aac6d036.chunk.js.map",
+    "450.d5e38a23.chunk.js.map": "/ukRentalCar/static/js/450.d5e38a23.chunk.js.map",
     "826.d69e18a3.chunk.js.map": "/ukRentalCar/static/js/826.d69e18a3.chunk.js.map",
     "294.61f92d3a.chunk.js.map": "/ukRentalCar/static/js/294.61f92d3a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.538c27a0.css",
-    "static/js/main.ebba9306.js"
+    "static/js/main.e9e246aa.js"
   ]
 }
