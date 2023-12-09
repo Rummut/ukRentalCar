@@ -68,6 +68,7 @@ const Catalog = () => {
         {carDetails.map((detail, index) => (
           <li key={index}>
             <p>{detail.year}</p>
+            <p>{detail.rentalPrice}</p>
             <img src={detail.img} alt={detail.make} />
           </li>
         ))}
