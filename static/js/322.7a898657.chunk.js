@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[322],{322:(e,i,a)=>{a.r(i),a.d(i,{default:()=>t});var s=a(184);const t=()=>(0,s.jsxs)("main",{children:[(0,s.jsx)("h1",{children:"Welcome"}),(0,s.jsx)("p",{children:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, laboriosam placeat incidunt rem illum animi nemo quibusdam quia voluptatum voluptate."})]})}}]);
+//# sourceMappingURL=322.7a898657.chunk.js.map
