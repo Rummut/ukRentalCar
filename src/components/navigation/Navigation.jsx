@@ -1,24 +1,19 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { ListMenu, StyledNavLink } from "./Navigation.styled";
 
 export const Navigation = () => {
   return (
-    <>
-      <header>
-        <nav>
-          <ul>
-            <li>
-              <NavLink to="/">Home</NavLink>
-            </li>
-            <li>
-              <NavLink to="/catalog">Catalog</NavLink>
-            </li>
-            <li>
-              <NavLink to="/favorites">Favorites</NavLink>
-            </li>
-            <Outlet />
-          </ul>
-        </nav>
-      </header>
-    </>
+    <nav>
+      <ListMenu>
+        <li>
+          <StyledNavLink to="/">Home</StyledNavLink>
+        </li>
+        <li>
+          <StyledNavLink to="/catalog">Catalog</StyledNavLink>
+        </li>
+        <li>
+          <StyledNavLink to="/favorite">Favorites</StyledNavLink>
+        </li>
+      </ListMenu>
+    </nav>
   );
 };
