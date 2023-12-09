@@ -14,12 +14,12 @@ import { FetchCars } from "../../components/api-request/car-data-base";
 
 const Catalog = () => {
   const [selectedCar, setSelectedCar] = useState("");
-  const [images, setImages] = useState([]);
+  const [carDetails, setcarDetails] = useState([]);
   useEffect(() => {
     const fetchCars = async () => {
       try {
         const result = await FetchCars();
-        setImages((prevState) => [...prevState, ...result]);
+        setcarDetails((prevState) => [...prevState, ...result]);
       } catch (error) {
         throw new Error();
       }
@@ -65,9 +65,10 @@ const Catalog = () => {
         <ButtonForm type="submit">Search</ButtonForm>
       </Form>
       <ul>
-        {images.map((image, index) => (
+        {carDetails.map((detail, index) => (
           <li key={index}>
-            <img src={image.img} alt={image.make} />
+            <p>{detail.year}</p>
+            <img src={detail.img} alt={detail.make} />
           </li>
         ))}
       </ul>
