@@ -69,6 +69,7 @@ const Catalog = () => {
           <li key={index}>
             <p>{detail.year}</p>
             <p>{detail.rentalPrice}</p>
+            <p></p>
             <img src={detail.img} alt={detail.make} />
           </li>
         ))}
